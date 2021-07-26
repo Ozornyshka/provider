@@ -1,0 +1,66 @@
+.about-me {
+  background-color: $bg-gray;
+  padding: 56px 0;
+
+  @media(max-width:$bp-mobile) {
+    padding: 32px;
+
+  }
+
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-row-gap: 40px;
+
+
+  }
+
+  &__item {
+    max-width: 342px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    text-align: center;
+
+    @media(max-width:$bp-laptop) {
+      width: 48%;
+
+    }
+
+    @media(max-width:$bp-mobile) {
+      width: 100%;
+
+    }
+
+    .icon-best-seller {
+      fill: $blue;
+    }
+
+    .icon-wifi-router {
+      fill: $violet5;
+    }
+
+    .icon-customer-service {
+      fill: $orange;
+    }
+
+    .icon-badge {
+      fill: $green;
+    }
+
+
+    svg {
+      width: 56px;
+      height: 56px;
+      margin-bottom: 16px;
+    }
+  }
+
+
+}

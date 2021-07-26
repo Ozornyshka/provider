@@ -1,0 +1,30 @@
+.page-nav {
+  font-size: 14px;
+  padding: 30px 0;
+
+  &__link {
+    position: relative;
+    text-decoration: none;
+
+    &--before {
+      padding-right: 5px;
+      margin-right: 5px;
+
+      &:before {
+        content: "»";
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: -15px;
+      }
+    }
+
+    &--active {
+      margin-left: 15px;
+      position: relative;
+      text-decoration: none;
+      font-weight: 700;
+      color: $orange;
+    }
+  }
+}

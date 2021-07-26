@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Абонентам</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <header>
+        <div class="container">
+          <div class="header">
+            <div class="header__logo">
+              <a class="header__logo-link" href="/"
+                ><img src="images/logo.png" alt="logo"
+              /></a>
+              <span class="header__logo-text"
+                >Интернет <br />
+                и телевидение</span
+              >
+            </div>
+            <div class="header__navbar">
+              <div class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <ul class="header__navbar-menu">
+                <div class="header__navbar-menu__top-block">
+                  <h3>Меню</h3>
+                  <svg class="icon icon-close"><use xlink:href="images/sprite.svg#close"></use></svg>
+                </div>
+                <li class="header__navbar-menu-item">
+                  <a href="#">Тарифы</a>
+                  <ul class="header__navbar__submenu">
+                    <li class="recommend"><a href="#">Интернет + ТВ</a></li>
+                    <li><a href="#">Интернет</a></li>
+                    <li><a href="#">Кабельное телевидение</a></li>
+                  </ul>
+                </li>
+                <li class="header__navbar-menu-item"><a href="#">Акции</a></li>
+                <li class="header__navbar-menu-item"><a href="#">Поддержка</a></li>
+                <li class="header__navbar-menu-item">
+                  <a href="payment.html">Оплата и контакты</a>
+                </li>
+                <a href="tel:0713888833" class="header__support">
+                  <svg class="icon icon-phone"><use xlink:href="images/sprite.svg#phone"></use></svg>
+                  <div class="header__support-number">
+                    <p>тех. поддержка 24\7</p>
+                    <p><span class="header__support-tel">(062/071)388-88-33</span></p>
+                  </div>
+                </a>
+                <a href="#" class="login-btn" data-popup="login">
+                  Личный кабинет <svg class="icon icon-log-in"><use xlink:href="images/sprite.svg#log-in"></use></svg>
+                </a>
+              </ul>
+            </div>
+            <a href="tel:0713888833" class="header__support">
+              <svg class="icon icon-phone"><use xlink:href="images/sprite.svg#phone"></use></svg>
+              <div class="header__support-number">
+                <p>тех. поддержка 24\7</p>
+                <p><span class="header__support-tel">(062/071)388-88-33</span></p>
+              </div>
+            </a>
+            <!-- <div class="header__news active"><svg class="icon icon-news"><use xlink:href="images/sprite.svg#news"></use></svg></div> -->
+            <a href="#" class="login-btn" data-popup="login">
+              Личный кабинет <svg class="icon icon-log-in"><use xlink:href="images/sprite.svg#log-in"></use></svg>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+<!-- Content -->
+<div class="subscriber">
+  <div class="page-nav">
+    <div class="container">
+      <nav class="page-nav__item">
+        <a class="page-nav__link page-nav__link--before" href="/">Главная</a>
+        <span class="page-nav__link--active">Абонентам</span>
+      </nav>
+    </div>
+  </div>
+  <div class="container">
+    <div class="subscriber__wrapper">
+      <h2 class="title subscriber-title">Абонентам</h2>
+      <p class="subscriber-subtitle">
+        Техническая поддержка осуществляется в круглосуточном режиме. Служба
+        технической поддержки нашей компании готова предоставить пользователям
+        квалифицированные консультации и помощь в решении проблем, возникающих
+        при настройке и эксплуатации оборудования нашей компании.
+      </p>
+      <div class="subscriber__item-title">Настройки</div>
+<div class="subscriber__container">
+  <div class="tab-container">
+    <div class="tab">
+      <input id="tab-one" type="checkbox" name="tabs" />
+      <label for="tab-one">Как проверить скорость Интернета?</label>
+      <div class="tab-content">
+        <p>
+          Замер скорости на примере ресурса
+          <a href="https://speedtest.net">speedtest.net</a>
+        </p>
+        <img src="images/subscriber/speed.jpg" alt="speed" />
+        <p>
+          2. Убедитесь, что справа под кнопкой "Начать" выбран сервер
+          Donetsk - Republic Operator of Networks. Для того чтобы изменить
+          сервер кликните "Поменять сервер", в открывшемся списке найдите и
+          выберите Donetsk - Republic Operator of Networks.
+        </p>
+        <img src="images/subscriber/speed-1.jpg" alt="speed" />
+        <p>
+          3. Нажимаем "Начать" — начнется тестирование скорости Интернета.
+        </p>
+        <p>
+          4. Получаем показатели теста скорости согласно Вашего тарифного
+          плана:
+        </p>
+        <img src="images/subscriber/speed-2.jpg" alt="speed" />
+        <p>
+          5. Обращаем Ваше внимание, что на скорость могут влиять следующие
+          факторы: <p>1) Роутер, подключенный по Wi-Fi;</p> <p>2) В момент пиковых
+            нагрузок на оборудование Интернет-провайдера скорость может быть
+            ниже обычного;</p> <p>3) Низкая производительность компьютера может стать
+              причиной плохих результатов теста.</p>
+        </p>
+        <p>
+          6. Чтобы тест был наиболее точным, приближенным к реальности,
+          выполняем следующее: <p>1) Вытаскиваем интернет-кабель из роутера и
+            подключаем его к компьютеру напрямую;</p> <p>2) Делаем несколько проверок
+              в разное время.</p>
+        </p>
+      </div>
+    </div>
+    <div class="tab">
+      <input id="tab-two" type="checkbox" name="tabs" />
+      <label for="tab-two"
+        >Настройка сетевого подключения в Windows 8, Windows 10
+      </label>
+      <div class="tab-content">
+        <p>
+          Настройка сетевого подключения в Windows 8, Windows 10
+        </p>
+      </div>
+    </div>
+    <div class="tab">
+      <input id="tab-three" type="checkbox" name="tabs" />
+      <label for="tab-three"
+        >
+        Настройка сетевого подключения в Windows 7
+      </label>
+      <div class="tab-content">
+        <p>
+          
+Настройка сетевого подключения в Windows 7
+        </p>
+      </div>
+    </div>
+    <div class="tab">
+      <input id="tab-four" type="checkbox" name="tabs" />
+      <label for="tab-four"
+        >
+        IPTV
+      </label>
+      <div class="tab-content">
+        <p>
+          
+          IPTV
+        </p>
+      </div>
+    </div>
+    <div class="tab">
+      <input id="tab-five" type="checkbox" name="tabs" />
+      <label for="tab-five"
+        >
+        Smart TV
+      </label>
+      <div class="tab-content">
+        <p>
+          
+          Smart TV
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="subscriber__nav" class="subscriber__nav">
+    <a class="underline" href="#tab-one">Как проверить скорость Интернета?</a>
+    <a class="underline" href="#tab-two">Настройка сетевого подключения в Windows 8, Windows 10</a>
+    <a class="underline" href="#tab-three">Настройка сетевого подключения в Windows 7</a>
+    <a class="underline" href="#tab-four">IPTV</a>
+    <a class="underline" href="#tab-five">Smart TV</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__about">
+              <a href="/">
+                <img class="footer__about-logo" src="images/logo-orange.svg" alt=""
+              /></a>
+              <div class="footer__about-text">
+                <p>2020 год. Все права защищены.</p>
+                <p>ТРК "Надежда" Интернет и телевидение.</p>
+                <a href="#">Политика конфиденциальности</a>
+              </div>
+              <div class="footer__social social">
+                <a href="#"><img src="images/facebook.svg" alt="facebook" /></a>
+                <a href="#"><img src="images/ok.svg" alt="ok" /></a>
+                <a href="#"><img src="images/vkontakte.svg" alt="vkontakte" /></a>
+                <a href="#"><img src="images/instagram.svg" alt="Instagram" /></a>
+              </div>
+            </div>
+            <div class="footer__navigations">
+              <div class="footer__navigations-block">
+                <a href="#">Тарифы</a>
+                <a href="#">Акции</a>
+                <a href="tutorials.html">Абонентам</a>
+                <a href="#">О компании</a>
+              </div>
+              <div class="footer__navigations-block">
+                <a href="#">Интернет</a>
+                <a href="#">IPTV</a>
+                <a href="#">Кабельное ТВ</a>
+                <a href="#">Помощь</a>
+              </div>
+            </div>
+            <div class="footer__contact">
+              <h3>Пункты обслуживания Абонентов</h3>
+              <div class="footer__contact-block">
+                <span>Калининский район: б. Шахтостроителей, 5</span>
+                <span>Пролетарский район: ул. Щетинина, 32</span>
+                <span>Буденновский район: ул. 230 Стрелковой дивизии, 38</span>
+                <span>Кировский район: ул. Адыгейская, 1</span>
+              </div>
+              <div class="footer__contact-phone">
+                <a class="footer__contact-phone-item" href="tel:0623888833"
+                  ><svg class="icon icon-tel"><use xlink:href="images/sprite.svg#tel"></use></svg> <span>(062) 388-88-33</span>
+                </a>
+                <a class="footer__contact-phone-item" href="tel:0622018833"
+                  ><svg class="icon icon-tel"><use xlink:href="images/sprite.svg#tel"></use></svg> <span>(062) 201-88-33</span>
+                </a>
+                <a class="footer__contact-phone-item" href="tel:0713888833"
+                  ><svg class="icon icon-tel"><use xlink:href="images/sprite.svg#tel"></use></svg> <span>(071) 388-88-33</span>
+                </a>
+                <a class="footer__contact-phone-item" href="tel:0713048833"
+                  ><svg class="icon icon-tel"><use xlink:href="images/sprite.svg#tel"></use></svg> <span>(071) 304-88-33</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup">
+  <div class="popup-center">
+    <div class="popup-content">
+      <button type="button" class="close" aria-label="Close">
+        <span>&times;</span>
+      </button>
+      <div class="login-popup">
+  <div class="login-popup-title popup-title">
+    Вход <br />
+    в личный кабинет
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1"></label>
+      <input
+        type="email"
+        class="form-control"
+        id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Введите емайл"
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1"></label>
+      <input
+        type="password"
+        class="form-control"
+        id="exampleInputPassword1"
+        placeholder="Введите пароль"
+      />
+    </div>
+    <button type="submit" class="btn btn--blue login-popup-btn">Войти</button>
+  </form>
+  <a class="line" href="#">Забыли пароль?</a>
+</div>
+<div class="question-support">
+  <div class="popup-title">Вопрос поддержке</div>
+  <form>
+    <div class="form-group">
+      <label for="question-support"></label>
+      <input
+        type="email"
+        class="form-control"
+        id="question-support"
+        aria-describedby="emailHelp"
+        placeholder="Введите емайл"
+      />
+    </div>
+    <div class="form-group">
+      <label for="question-support-text"></label>
+      <textarea
+        class="form-control"
+        id="question-support-text"
+        rows="3"
+        placeholder="Напишите вопрос"
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn--orange">Спросить</button>
+  </form>
+  <a class="line" href="#">Помощь</a>
+</div>
+<div class="popup-ticket">
+  <div class="popup-ticket-title">
+    Оставьте заявку и наш менеджер свяжется с вами через 10 минут!
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="popup-ticket-name"></label>
+      <input
+        type="text"
+        class="form-control"
+        id="popup-ticket-name"
+        placeholder="Имя"
+      />
+    </div>
+    <div class="form-group">
+      <label for="popup-ticket-number"></label>
+      <input
+        type="number"
+        class="form-control"
+        id="popup-ticket-number"
+        placeholder="+7"
+        aria-describedby="popupTicketHelp"
+      />
+      <small id="popupTicketHelp" class="form-text text-muted"
+        >без скобок и пробелов: +79876543210
+      </small>
+    </div>
+    <button type="submit" class="btn btn--orange">Оставить Заявку</button>
+  </form>
+  <a class="line" href="#">Помощь</a>
+</div>
+
+    </div>
+  </div>
+</div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+  type="text/javascript"
+  src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<script src="js/app.js"></script>
+
+  </body>
+</html>

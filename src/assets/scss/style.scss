@@ -1,0 +1,58 @@
+@import "reset";
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "container";
+@import "page";
+@import "flex-gap-mixin";
+@import "helpers";
+
+
+
+@import "chanel-block/chanel-block";
+
+////// page-nav
+@import "page-nav/page-nav";
+
+///// Header-Footer /////////
+@import "layout/header";
+@import "layout/footer";
+
+
+///// banner slider 
+@import "banner-slider/banner-slider";
+
+
+
+///// tariffs ////
+@import "tariffs/tariffs";
+
+///// form address
+@import "form-address/form-address";
+///// connect
+@import "connect/connect";
+
+
+
+//////// Banner section ///////////
+@import "banner-sections/tariffs-home";
+@import "banner-sections/banner";
+
+
+/////// about-me
+@import "about-me/about-me";
+
+
+///////////// Popup /////////
+@import "popup/popup";
+
+
+
+
+
+////////////////// PAGE ///////////
+@import "payment/payment";
+@import "subscriber/subscriber";
+@import "tutorials/tutorials";
+@import "page-ktv/ktv";
+@import "page-game/page-game";

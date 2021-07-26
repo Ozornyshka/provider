@@ -1,0 +1,11 @@
+.question-support {
+  width: 435px;
+  display: none;
+
+
+
+  @media(max-width:$bp-mobile) {
+    width: 96%;
+
+  }
+}

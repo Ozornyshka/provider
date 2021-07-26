@@ -1,0 +1,49 @@
+.page {
+  // display: grid;
+  // grid-template-rows: auto 1fr auto;
+  // min-height: 100vh;
+  // overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.support {
+  display: flex;
+  align-items: center;
+
+  &-tel {
+    color: $text-two;
+    white-space: nowrap;
+  }
+
+  p {
+    &:first-of-type {
+      font-weight: 300;
+      font-size: 12px;
+      color: $text-two;
+    }
+
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: rgba(255, 255, 255, 0);
+    stroke: $green;
+    margin-right: 16px;
+  }
+
+}
+
+.sale {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 24px;
+    right: -10px;
+    width: 71px;
+    height: 28px;
+    background-image: url(../images/sale-15.svg);
+  }
+}

@@ -1,0 +1,38 @@
+.ktv {
+  background-color: $bg-gray;
+  padding-top: 20px;
+
+  .connect {
+    margin-bottom: 80px;
+  }
+
+  .connect__about {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.90)), url(../images/connect-bg.jpg);
+  }
+
+  .form-address {
+    margin-bottom: 53px;
+    padding: 0;
+  }
+
+  &-banner {
+    margin-bottom: 53px;
+
+    img {
+      width: 80%;
+      height: 100%;
+      // border-radius: 8px;
+    }
+  }
+
+  &__chanel-container {
+    display: flex;
+    gap: 27px;
+    margin-bottom: 120px;
+
+    @media(max-width: $bp-mobile) {
+      flex-direction: column;
+    }
+  }
+}

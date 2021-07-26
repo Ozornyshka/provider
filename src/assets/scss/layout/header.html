@@ -1,0 +1,62 @@
+<header>
+  <div class="container">
+    <div class="header">
+      <div class="header__logo">
+        <a class="header__logo-link" href="/"
+          ><img src="images/logo.png" alt="logo"
+        /></a>
+        <span class="header__logo-text"
+          >Интернет <br />
+          и телевидение</span
+        >
+      </div>
+      <div class="header__navbar">
+        <div class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="header__navbar-menu">
+          <div class="header__navbar-menu__top-block">
+            <h3>Меню</h3>
+            {{#icon}}close{{/icon}}
+          </div>
+          <li class="header__navbar-menu-item">
+            <a href="#">Тарифы</a>
+            <ul class="header__navbar__submenu">
+              <li class="recommend"><a href="#">Интернет + ТВ</a></li>
+              <li><a href="#">Интернет</a></li>
+              <li><a href="#">Кабельное телевидение</a></li>
+            </ul>
+          </li>
+          <li class="header__navbar-menu-item"><a href="#">Акции</a></li>
+          <li class="header__navbar-menu-item"><a href="#">Поддержка</a></li>
+          <li class="header__navbar-menu-item">
+            <a href="payment.html">Оплата и контакты</a>
+          </li>
+          <a href="tel:0713888833" class="header__support">
+            {{#icon}}phone{{/icon}}
+            <div class="header__support-number">
+              <p>тех. поддержка 24\7</p>
+              <p><span class="header__support-tel">(062/071)388-88-33</span></p>
+            </div>
+          </a>
+          <a href="#" class="login-btn" data-popup="login">
+            Личный кабинет {{#icon}}log-in{{/icon}}
+          </a>
+        </ul>
+      </div>
+      <a href="tel:0713888833" class="header__support">
+        {{#icon}}phone{{/icon}}
+        <div class="header__support-number">
+          <p>тех. поддержка 24\7</p>
+          <p><span class="header__support-tel">(062/071)388-88-33</span></p>
+        </div>
+      </a>
+      <!-- <div class="header__news active">{{#icon}}news{{/icon}}</div> -->
+      <a href="#" class="login-btn" data-popup="login">
+        Личный кабинет {{#icon}}log-in{{/icon}}
+      </a>
+    </div>
+  </div>
+</header>

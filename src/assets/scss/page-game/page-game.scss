@@ -1,0 +1,23 @@
+.game {
+  padding-top: 20px;
+  background-color: $bg-gray;
+
+  .banner-game {
+    margin-bottom: 50px;
+  }
+
+  .form-address {
+    padding: 0;
+    padding-bottom: 55px;
+    margin: 0;
+  }
+
+  .tariffs-container {
+    margin-bottom: 25px;
+
+  }
+
+  .connect__about {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/connect-bg.jpg);
+  }
+}

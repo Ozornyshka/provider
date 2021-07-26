@@ -1,0 +1,129 @@
+<div class="ktv">
+  <div class="container">
+    <div class="ktv-wrapper">
+      <div class="banner-section img-bg text-right ktv-banner">
+        <div class="banner-section-wrapper">
+          <div class="banner-section__img">
+            <picture>
+              <img src="images/banner/ktv-banner.jpg" alt="Тариф «Базовый+»" />
+            </picture>
+          </div>
+          <div class="banner-section__info">
+            <div class="banner-section__info-title title">Тариф «Базовый+»</div>
+            <ul class="banner-section__info-list">
+              <li>Более 165 каналов на любой вкус</li>
+              <li>Бесплатное подключение</li>
+              <li>Цифровые и HD-каналы</li>
+              <li>
+                Дополнительное оборудование и установка антенны при подключении
+                не требуются
+              </li>
+            </ul>
+            <div class="banner-section__info-button">
+              <a class="btn btn--orange" href="#">Выбрать тариф</a>
+              <a class="btn btn--border" href="#">Список каналов</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-address">
+      <div class="form-address-wrapper">
+        <div class="form-address-text">
+          Проверьте возможность подключения <br />
+          Интернета в вашем доме
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="address"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="address"
+              aria-describedby="emailHelp"
+              placeholder="Введите улицу"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >ул. Ленина</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="addressNumber"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="addressNumber"
+              aria-describedby="emailHelp"
+              placeholder="Дом"
+            />
+            <small id="emailHelp" class="form-text text-muted">д. 17</small>
+          </div>
+          <button class="btn btn--border" type="submit">
+            Проверить подключение
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="ktv__chanel-container">
+      <div class="chanel-block sale">
+        <div class="chanel-block-title">«Базовый»</div>
+        <div class="chanel-block-subtitle">
+          Стандартный тариф для семьи из 3-х человек. Смотрите фильму, слушайте
+          музыку!
+        </div>
+        <div class="chanel-block__info">
+          {{#icon}}remote-control{{/icon}}
+          <span class="span-dashed-b">90+ каналов</span>
+        </div>
+        <div class="chanel-block__list">
+          <ul class="chanel-block__list-item">
+            <li>
+              <img src="images/chanel/1.png" alt="1 Республиканский" />1
+              Республиканский
+            </li>
+
+            <li><img src="images/chanel/3.png" alt="Оплот" />Оплот</li>
+
+            <li><img src="images/chanel/5.png" alt="Юнион" />Юнион</li>
+
+            <li>
+              <img src="images/chanel/7.png" alt="Новороссия" />Новороссия
+            </li>
+
+            <li><img src="images/chanel/9.png" alt="Оплот 2" />Оплот 2</li>
+
+            <li>
+              <img
+                src="images/chanel/11.png"
+                alt="Инфоканал ТРК Надежда"
+              />Инфоканал ТРК Надежда
+            </li>
+          </ul>
+          <ul class="chanel-block__list-item">
+            <li><img src="images/chanel/2.png" alt="Мир 24" />Мир 24</li>
+            <li><img src="images/chanel/4.png" alt="Россия 24" />Россия 24</li>
+            <li><img src="images/chanel/6.png" alt="Известия" />Известия</li>
+            <li><img src="images/chanel/8.png" alt="БелРос" />БелРос</li>
+            <li><img src="images/chanel/10.png" alt="Сарафан" />Сарафан</li>
+            <li><img src="images/chanel/12.png" alt="5 канал" />5 канал</li>
+          </ul>
+          <div class="chanel-block__list-btn">
+            <a href="#">все каналы</a>
+          </div>
+        </div>
+        <div class="chanel-block-subtitle">
+          Выбирете этот тариф, если вам <br />
+          нужны все эферные каналы
+        </div>
+        <div class="chanel-block__price">от <span>75</span>р/мес.</div>
+        <div class="chanel-block__btn">
+          <a class="btn btn--orange" href="#">Подключить</a>
+          <a class="underline" href="#">Подробности</a>
+        </div>
+      </div>
+
+      {{>chanel-block}}
+    </div>
+  </div>
+  {{>connect}}
+</div>

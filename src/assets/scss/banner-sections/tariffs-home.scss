@@ -1,0 +1,136 @@
+.banner {
+  padding: 60px 0;
+  background-color: $bg-gray;
+
+  &--right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &--size {
+    // height: 465px;
+    height: auto;
+    padding: 20px 70px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+
+    &:not(:last-of-type) {
+      margin-bottom: 56px;
+    }
+
+    @media(max-width: $bp-laptop) {
+      padding: 24px;
+    }
+
+    @media(max-width: $bp-mobile) {
+      padding: 0;
+    }
+  }
+
+  &__block {
+    max-width: 400px;
+    height: 100%;
+    padding: 20px;
+    background-color: inherit;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media(max-width: $bp-mobile) {
+      max-width: 100%
+    }
+
+
+
+    &-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+
+      svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+      }
+    }
+
+    &-title {
+      font-size: 42px;
+      margin-bottom: 16px;
+      font-weight: 500;
+
+      @media(max-width: $bp-laptop) {
+        font-size: 24px;
+      }
+    }
+
+    &-subtitle {
+      font-weight: 300;
+      margin-bottom: 16px;
+    }
+
+    &-price {
+      font-size: 42px;
+      margin-bottom: 16px;
+      font-weight: 500;
+      position: relative;
+
+      @media(max-width: $bp-laptop) {
+        font-size: 24px;
+      }
+
+      &-sale {
+        text-decoration-line: line-through;
+        // display: block;
+        position: absolute;
+        // right: 0;
+        top: -5px;
+        font-weight: 300;
+        font-size: 16px;
+
+        @media(max-width: $bp-mobile) {
+          position: relative;
+          float: right;
+        }
+      }
+    }
+
+    .btn {
+      height: 64px;
+      order: 0;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  &-home {
+    width: 100%;
+    background-image: url(../images/banner/home-tariffs.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    background-color: rgba(206, 213, 219, 0.61);
+
+    @media(max-width: $bp-laptop) {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &-game {
+    width: 100%;
+    background-image: url(../images/banner/game-tariffs.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(1, 24, 65, 0.8);
+    color: #fff;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+}

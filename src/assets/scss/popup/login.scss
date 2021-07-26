@@ -1,0 +1,11 @@
+.login-popup {
+  width: 300px;
+  text-align: center;
+  display: none;
+
+  // width: 100%;
+  &-btn {
+
+    margin-bottom: 24px;
+  }
+}

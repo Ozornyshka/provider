@@ -1,0 +1,308 @@
+<div class="tariffs">
+  <div class="container">
+    <h2 class="title tariffs-title">Тарифы</h2>
+    <div class="tariffs-tabs">
+      <div class="tariffs-tabs-desktop">
+        <div class="tariffs-tabs-item active" data-tariffs="internet">
+          Интернет
+        </div>
+        <div class="tariffs-tabs-item" data-tariffs="internet-tv">
+          Интернет + ТВ
+        </div>
+        <div class="tariffs-tabs-item" data-tariffs="internet-kabel">
+          Кабельное ТВ
+        </div>
+      </div>
+      <div class="tariffs-tabs-mobile">
+        <form>
+          <div class="__select" data-state="">
+            <div class="__select__title" data-default="Option 0">Интернет</div>
+            <div class="__select__content">
+              <input
+                id="singleSelect0"
+                class="__select__input"
+                type="radio"
+                name="singleSelect"
+              />
+              <label
+                for="singleSelect0"
+                data-tariffs="internet"
+                class="__select__label"
+                >Интернет</label
+              >
+              <input
+                id="singleSelect3"
+                class="__select__input"
+                type="radio"
+                name="singleSelect"
+                checked
+              />
+              <label
+                for="singleSelect3"
+                data-tariffs="internet"
+                class="__select__label"
+                >Интернет</label
+              >
+              <input
+                id="singleSelect1"
+                class="__select__input"
+                type="radio"
+                name="singleSelect"
+              />
+              <label
+                for="singleSelect1"
+                data-tariffs="internet-tv"
+                class="__select__label"
+                >Интернет + ТВ</label
+              >
+              <input
+                id="singleSelect2"
+                class="__select__input"
+                type="radio"
+                name="singleSelect"
+              />
+              <label
+                for="singleSelect2"
+                data-tariffs="internet-kabel"
+                class="__select__label"
+                >Кабельное ТВ</label
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="tariffs-container">
+    <div class="tariffs-container-warapper container">
+      <div class="tariffs-internet tariffs-carusel">
+        <div class="tariffs__card">
+          <div class="tariffs__card-title">«Домашний»</div>
+          <div class="tariffs__card-subtitle">
+            Стандартный тариф для семьи из 3-х человек. Скорости Интернета
+            хватит для всех задач!
+          </div>
+          <div class="tariffs__card-info">
+            <p>
+              {{#icon}}internet{{/icon}}Интернет
+              <span class="span--orange">10мб/c</span>
+            </p>
+          </div>
+          <div class="tariffs__card-sale">
+            <div class="tariffs__card-sale-rate"><span>15%</span></div>
+            <span
+              >Акция «Новогодняя <br />
+              скидка 15%»</span
+            >
+            <p>Акция действует до 10 января 2021г. Самое время подключать!</p>
+          </div>
+          <div class="tariffs__card-price">
+            <span>от 70р/мес.</span>
+            <span class="tariffs__card-price-sale"
+              >от <br />
+              70р/мес.</span
+            >
+          </div>
+          <a
+            class="btn tariffs__card-btn btn--orange"
+            data-popup="popup-ticket"
+            href="#"
+            >Подключить</a
+          >
+          <a class="btn-link" href="#">Подробности</a>
+        </div>
+        <div class="tariffs__card">
+          <div class="tariffs__card-title">«Домашний»</div>
+          <div class="tariffs__card-subtitle">
+            Стандартный тариф для семьи из 3-х человек. Скорости Интернета
+            хватит для всех задач!
+          </div>
+          <div class="tariffs__card-info">
+            <p>
+              {{#icon}}internet{{/icon}}Интернет
+              <span class="span--orange">30мб/c</span>
+            </p>
+          </div>
+          <div class="tariffs__card-sale">
+            <div class="tariffs__card-sale-rate"><span>15%</span></div>
+            <span
+              >Акция «Новогодняя <br />
+              скидка 15%»</span
+            >
+            <p>Акция действует до 10 января 2021г. Самое время подключать!</p>
+          </div>
+          <div class="tariffs__card-price">
+            <span>от 150р/мес.</span>
+            <span class="tariffs__card-price-sale"
+              >от <br />
+              70р/мес.</span
+            >
+          </div>
+          <a
+            class="btn tariffs__card-btn btn--orange"
+            data-popup="popup-ticket"
+            href="#"
+            >Подключить</a
+          >
+          <a class="btn-link" href="#">Подробности</a>
+        </div>
+        <div class="tariffs__card game-bg recommend--purple">
+          <div class="tariffs__card-title">«Игровой»</div>
+          <div class="tariffs__card-subtitle">
+            Стандартный тариф для семьи из 3-х человек. Скорости Интернета
+            хватит для всех задач!
+          </div>
+          <div class="tariffs__card-info">
+            <p>
+              {{#icon}}internet{{/icon}}Интернет
+              <span class="span--orange">60мб/c</span>
+            </p>
+            <p>{{#icon}}smart-tv{{/icon}}IPTV</p>
+            <p>
+              {{#icon}}remote-control{{/icon}}
+              <span class="span-dashed-w">90+ каналов</span>
+            </p>
+          </div>
+          <div class="tariffs__card-sale">
+            <div class="tariffs__card-sale-rate">
+              <span>15%</span>{{#icon}}like{{/icon}}
+            </div>
+            <span
+              >Рекомендуем для <br />
+              большинства задач</span
+            >
+            <p>Акция действует до 10 января 2021г. Самое время подключать!</p>
+          </div>
+          <div class="tariffs__card-price">
+            <span>от 190р/мес.</span>
+            <span class="tariffs__card-price-sale"
+              >от <br />
+              70р/мес.</span
+            >
+          </div>
+          <a
+            class="btn tariffs__card-btn btn--orange"
+            href="#"
+            data-popup="popup-ticket"
+            >Подключить</a
+          >
+          <a class="btn-link" href="#">Подробности</a>
+        </div>
+        <div class="tariffs__card">
+          <div class="tariffs__card-title">«Игровой +»</div>
+          <div class="tariffs__card-subtitle">
+            Стандартный тариф для семьи из 3-х человек. Скорости Интернета
+            хватит для всех задач!
+          </div>
+          <div class="tariffs__card-info">
+            <p>
+              {{#icon}}internet{{/icon}}Интернет
+              <span class="span--orange">100мб/c</span>
+            </p>
+            <p>{{#icon}}smart-tv{{/icon}}IPTV</p>
+            <p>
+              {{#icon}}remote-control{{/icon}}
+              <span class="span-dashed-b">90+ каналов</span>
+            </p>
+          </div>
+          <div class="tariffs__card-sale">
+            <div class="tariffs__card-sale-rate"><span>15%</span></div>
+            <span
+              >Акция «Новогодняя <br />
+              скидка 15%»</span
+            >
+            <p>Акция действует до 10 января 2021г. Самое время подключать!</p>
+          </div>
+          <div class="tariffs__card-price">
+            <span>от 220р/мес.</span>
+            <span class="tariffs__card-price-sale"
+              >от <br />
+              70р/мес.</span
+            >
+          </div>
+          <a
+            class="btn tariffs__card-btn btn--orange"
+            href="#"
+            data-popup="popup-ticket"
+            >Подключить</a
+          >
+          <a class="btn-link" href="#">Подробности</a>
+        </div>
+      </div>
+      <div class="tariffs-internet-tv tariffs-carusel">
+        <div class="tariffs__card">
+          <div class="tariffs__card-title">«Базовый»</div>
+          <div class="tariffs__card-subtitle">
+            Стандартный тариф для семьи из 3-х человек. Смотрите фильму,
+            слушайте музыку!
+          </div>
+          <div class="tariffs__card-info">
+            <p>
+              {{#icon}}remote-control{{/icon}}
+              <span class="span-dashed-b">90+ каналов</span>
+            </p>
+          </div>
+          <div class="tariffs__card-sale">
+            <div class="tariffs__card-sale-rate"><span>15%</span></div>
+            <span
+              >Акция «Новогодняя <br />
+              скидка 15%»</span
+            >
+            <p>Акция действует до 10 января 2021г. Самое время подключать!</p>
+          </div>
+          <div class="tariffs__card-price">
+            <span>от 75р/мес.</span>
+            <span class="tariffs__card-price-sale"
+              >от <br />
+              70р/мес.</span
+            >
+          </div>
+          <a
+            class="btn tariffs__card-btn btn--orange"
+            href="#"
+            data-popup="popup-ticket"
+            >Подключить</a
+          >
+          <a class="btn-link" href="#">Подробности</a>
+        </div>
+        <div class="tariffs__card cabel-bg recommend--blue">
+          <div class="tariffs__card-title">«Базовый+»</div>
+          <div class="tariffs__card-subtitle">
+            Стандартный тариф для семьи из 3-х человек. Смотрите фильму,
+            слушайте музыку!
+          </div>
+          <div class="tariffs__card-info">
+            <p>
+              {{#icon}}remote-control{{/icon}}
+              <span class="span-dashed-w">90+ каналов</span>
+            </p>
+          </div>
+          <div class="tariffs__card-sale">
+            <div class="tariffs__card-sale-rate">
+              <span>15%</span>{{#icon}}like{{/icon}}
+            </div>
+            <span
+              >Рекомендуем для <br />
+              большинства задач</span
+            >
+            <p>Выбирете этот тариф, если вам нужны все эферные каналы</p>
+          </div>
+          <div class="tariffs__card-price">
+            <span>от 120р/мес.</span>
+            <span class="tariffs__card-price-sale"
+              >от <br />
+              70р/мес.</span
+            >
+          </div>
+          <a
+            class="btn tariffs__card-btn btn--orange"
+            href="#"
+            data-popup="popup-ticket"
+            >Подключить</a
+          >
+          <a class="btn-link" href="#">Подробности</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

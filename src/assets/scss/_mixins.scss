@@ -1,0 +1,31 @@
+@mixin violet-btn {
+  background-color: $violet6;
+
+  &:hover {
+    background-color: lighten($violet6, 5%)
+  }
+
+  &:active {
+    background-color: darken($violet6, 5%)
+  }
+}
+
+@mixin blue5-btn {
+  background-color: $blue5;
+
+  &:hover {
+    background-color: lighten($blue5, 5%)
+  }
+
+  &:active {
+    background-color: darken($blue5, 5%)
+  }
+}
+
+@mixin a-hover {
+  &:hover {
+    color: $orange;
+    text-decoration: underline;
+
+  }
+}

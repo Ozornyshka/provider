@@ -1,0 +1,31 @@
+<div class="popup-ticket">
+  <div class="popup-ticket-title">
+    Оставьте заявку и наш менеджер свяжется с вами через 10 минут!
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="popup-ticket-name"></label>
+      <input
+        type="text"
+        class="form-control"
+        id="popup-ticket-name"
+        placeholder="Имя"
+      />
+    </div>
+    <div class="form-group">
+      <label for="popup-ticket-number"></label>
+      <input
+        type="number"
+        class="form-control"
+        id="popup-ticket-number"
+        placeholder="+7"
+        aria-describedby="popupTicketHelp"
+      />
+      <small id="popupTicketHelp" class="form-text text-muted"
+        >без скобок и пробелов: +79876543210
+      </small>
+    </div>
+    <button type="submit" class="btn btn--orange">Оставить Заявку</button>
+  </form>
+  <a class="line" href="#">Помощь</a>
+</div>
